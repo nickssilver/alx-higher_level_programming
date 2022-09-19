@@ -1,3 +1,3 @@
 # 0x00-python-hello_world
-<hr/>
+<hr>
 ## python hello world
