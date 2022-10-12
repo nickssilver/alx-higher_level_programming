@@ -1,53 +1,53 @@
 #!/usr/bin/python3
+"""My square module"""
+
+
 class Square:
-    """Represents a square.
-    Private instance attribute: size:
-        - property def size(self)
-        - property setter def size(self, value)
-    Instantiation with optional size.
-    Public instance method: def area(self).
-    """
+    """defines a square"""
 
     def __init__(self, size=0):
-        """Initializes the data."""
+        """Create a Square
+        Args: size: length of a side of Square
+        """
         self.__size = size
-
-    def __eq__(self, other):
-        """Equal."""
-        if hasattr(other, 'size'):
-            return self.__size == other.__size
-        return self.__size == other
-
-    def __ne__(self, other):
-        """Not equal."""
-        return not self.__eq__(other)
-
-    def __lt__(self, other):
-        """Less than."""
-        if hasattr(other, 'size'):
-            return self.__size < other.__size
-        return self.__size < other
-
-    def __le__(self, other):
-        """Less than or equal."""
-        if hasattr(other, 'size'):
-            return self.__size <= other.__size
-        return self.__size <= other
 
     @property
     def size(self):
-        """Retrieves the size."""
+        """"The propery of size as the len of a side of Square
+        Raises:
+            TypeError: if size != int
+            ValueErrorr: if size < 0
+        """
         return self.__size
 
     @size.setter
     def size(self, value):
-        """Sets the size to a value."""
-        if not isinstance(value, int) or not isinstance(value, float):
-            raise TypeError("size must be a number")
-        elif value < 0:
-            raise ValueError("size must be >= 0")
+        if not isinstance(value, int):
+            raise TypeError('size must be an integer')
+        if value < 0:
+            raise ValueError('size must be >= 0')
         self.__size = value
 
     def area(self):
-        """Returns the current square area."""
-        return self.__size ** 2
+        """Get the area of a Square
+        Returns: The size squared
+        """
+        return self.__size * self.__size
+
+    def __le__(self, other):
+        return self.area() <= other.area()
+
+    def __lt__(self, other):
+        return self.area() < other.area()
+
+    def __ge__(self, other):
+        return self.area() >= other.area()
+
+    def __ne__(self, other):
+        return self.area() != other.area()
+
+    def __gt__(self, other):
+        return self.area() > other.area()
+
+    def __eq__(self, other):
+        return self.area() == other.area()
