@@ -49,13 +49,10 @@ Happens you use my repo for doing ALx-Projects below are projects i didn't perfo
 - 
 
 Please check.
-### support
+### support:tada:
 If you like how i present and document my work  do me a favor of giving a **Star** :sparkles: to my repos  |&&| a **Follow**  :busts_in_silhouette:
 
 ## Author
-
-
-
 - **Nick Gitobu** - [silvernicks9@gmail.com](https://github.com/nickssilver) ~ [@pronic_tech](https://twitter.com/pronic_tech):
 
 <img align="center" src="https://github.com/nickssilver/AirBnB_clone/unnamed.png" alt="footer" width="150"  height="150"/>
