@@ -18,6 +18,7 @@ All work contained in this project was completed as part of the curriculum for t
 - Tested on Ubuntu 20.04 LTS
 ## Resourses:building_construction:
 You will find the resources of each project under the directory folder.
+<br>
 
 ### Projects:card_file_box:
 All of the following folders are projects done during the studies:
@@ -39,4 +40,23 @@ Project name | Description |
 | [`0x0C-python-almost_a_circle`](https://github.com/nickssilver/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | Learning about unit testing, serialization, deserialization, JSON, `args` and `kwargs` in **Python** |
 | [`0x0D-SQL_introduction`](https://github.com/nickssilver/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries) | Learning about how to create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION` with **MySQL** |
 | [`0x0E-SQL_more_queries`](https://github.com/nickssilver/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries) | More on how create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION`  and working with tables using **MySQL** |
+<br>
+
+## Bugs:bug:
+<br>
+Happens you use my repo for doing ALx-Projects below are projects i didn't perform well:
+- 
+- 
+
+Please check.
+### support
+If you like how i present and document my work  do me a favor of giving a **Star** :sparkles: to my repos  |&&| a **Follow**  :busts_in_silhouette:
+
+## Author
+
+
+
+- **Nick Gitobu** - [silvernicks9@gmail.com](https://github.com/nickssilver) ~ [@pronic_tech](https://twitter.com/pronic_tech):
+
+<img align="center" src="https://github.com/nickssilver/AirBnB_clone/unnamed.png" alt="footer" width="150"  height="150"/>
 
