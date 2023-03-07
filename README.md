@@ -1,7 +1,7 @@
 # Higher-level programming - Python, JavaScript, SQL
 <hr/>
 
-![img](https://postimg.cc/wR63KXvc)
+![python](./images/python.jpeg)
 
 
 This repo contains all the projects that I have done in the alx-Holberton curriculum on Higher level programming.
